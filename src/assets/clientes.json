@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Carlos",
+        "telefono": "4353-3243",
+        "idGrupo": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Martín",
+        "telefono": "3423-4323",
+        "idGrupo": 1
+    },
+    {
+        "id": 3,
+        "nombre": "José",
+        "telefono": "4532-4543",
+        "idGrupo": 2
+    }
+]

@@ -1,0 +1,31 @@
+
+.login{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    height: 100vh;
+
+    
+}
+
+.login-box{
+
+    padding: 20px;
+    min-width: 30rem;
+    min-height: 35rem;
+    border-radius: 10px;
+
+    .fa-stumbleupon{
+        font-size: 10rem;
+    }
+}
+
+.login-input{
+    input{
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    
+    padding: 7px;
+    border-bottom: 1px solid lightgray;
+}

@@ -1,0 +1,10 @@
+<form [formGroup]="form" (ngSubmit)="ObtenerForm()" *ngIf="infoInputs">
+    <div class="form-group" *ngFor="let input of infoInputs">
+        <label for="{{input.id}}">{{input.title}}</label>
+        <input type="text" class="form-control" id="{{input.id}}" name="{{input.name}}" placeholder="{{input.placeholder}}" formControlName="{{input.formControlName}}">
+    </div>
+
+    <span class="text-danger d-block my-3" *ngIf="error">Ingrese campos válidos</span>
+
+    <button type="submit" mat-flat-button color="accent">Enviar</button>
+</form>

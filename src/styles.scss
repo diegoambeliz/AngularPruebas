@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import './assets/styles/variables.scss';
+@import './assets/styles/buttons.scss';
+@import './assets/styles/shared-colors.scss';
+@import './assets/styles/table.scss';
+
+html, body { height: 100%; }
+body { margin: 0;  }
+
+*:not(.fa):not(.fas):not(.fab){
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
